@@ -17,3 +17,17 @@ So given those conditions I went a little further and did not use any if conditi
 
 This is written in Ruby of course. No need to create classes or modules since that would be overkill IMO. Also, the fact that the actual method that does the processing is extracted into its own goes of to show the purpose of responsibility of each element in code which also brings in consequence testability to our code.
 
+## Running the script
+
+```
+ruby foobar.rb run
+```
+
+## Running the tests
+
+```
+ruby test.rb
+```
+
+_That's all folks!_
+
